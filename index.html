@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Text Generator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 style="text-align: center">Text Generator</h1>
+    <div class="typer">
+      <div class="inner-box">
+        <label for="sarcastic">
+          <input
+            type="radio"
+            name="filter"
+            value="sarcastic"
+            id="sarcastic"
+            checked
+          />
+          Sarcastic
+        </label>
+        <label for="funky">
+          <input type="radio" name="filter" value="funky" id="funky" />
+          Funky
+        </label>
+        <label for="unable">
+          <input type="radio" name="filter" value="unable" id="unable" />
+          Unable to Structure Sentence
+        </label>
+
+        <textarea name="text" cols="40" rows="5"></textarea>
+    </div>
+    <h2>Text Result</h2>
+    <p class="result"></p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
